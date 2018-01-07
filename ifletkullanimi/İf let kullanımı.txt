@@ -1,0 +1,39 @@
+
+
+import UIKit
+
+// if let kullanýmý  -- Optional ifadelerden kurtulmak için kullanýrýz
+
+// Json Parse iþlemi yaparken
+
+// if let yada guard let yapýsýný kullanacaðýz
+
+//var sehir:String? // ? ile optional olduðu belirtilir
+
+//print(sehir ?? "Boþ Deðer")
+
+//print(sehir as Any) //Uyarýdan kurtarýr sizi
+
+var sehir:String?
+
+//print(sehir!) // ! iþareti ile unwrap yaparak optional kelimesinden de kurtarýr
+
+//En uygun yöntemlerden biri : if let
+
+//let il = sehir
+
+//
+
+//print(il!)
+
+if let il = sehir {
+
+    
+
+    print("ilin ismi: \(il)")
+
+} else{
+
+    print("Deðer okunamadý")
+
+}
